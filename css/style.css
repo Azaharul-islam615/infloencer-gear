@@ -314,6 +314,18 @@ main{
        .product-card{
         grid-template-columns: repeat(2,1fr);
     }
+    .see-more{
+        margin: 20px 330px;
+    }
+    .feature-content{
+        width: 300px;
+    }
+    footer{
+    padding: 35px 220px;
+   }
+   .features{
+    gap: 20px;
+   }
        
 }
 
