@@ -1,0 +1,154 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.heading-color{
+     color: #3A3A3A;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+/* header section */
+header{
+   
+    margin-top: 50px;
+}
+
+nav{
+    justify-content: space-between;
+}
+nav ul{
+    gap: 24px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+   font-size: 16px;
+    
+}
+.header-title{
+    font-size: 24px;
+}
+.search i{
+    color: #000000;
+    background-color: white;
+}
+/*  banner-section */
+.banner-section{
+    margin-top: 50px;
+    
+}
+.banner-img img{
+    width: 100%;
+   
+}
+.banner-content{
+    gap: 131px;
+    justify-content: center;
+    align-items: center;
+}
+.banner-item{
+    max-width: 582px;
+}
+.banner-item h1{
+    font-size:3.25rem;
+   
+}
+.banner-item p{
+    font-size:1rem;
+    margin: 16px 0;
+}
+.btn{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    font-size: 1rem;
+}
+.btn i{
+    margin-left: 8px;
+}
+.banner-img{
+    position: relative;
+}
+.banner-camera{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.bg{
+    max-width: 470px;
+}
+@media screen and (max-width:576px) {
+    nav, nav ul{
+        flex-direction: column;
+    }
+    .banner-content{
+        flex-direction: column-reverse;
+    }
+    nav{
+        text-align: center;
+    }
+    .header-title {
+        margin-bottom: 10px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+       .banner-content{
+        gap: 20px;
+       }
+       .banner-item{
+        width: 450px;
+       }
+       
+}
+
